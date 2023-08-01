@@ -1,0 +1,184 @@
+body {
+  background: rgb(244, 235, 250);
+  font-family: "Sansita", sans-serif;
+}
+h1 {
+  font-size: 40px;
+  background-color: rgb(138, 0, 230);
+  color: rgb(244, 235, 250);
+  padding: 18px 15px;
+  box-shadow: black 0px -3px 15px 1px;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  top: 0;
+}
+
+.locButton {
+  width: auto;
+  font-size: 20px;
+  color: rgb(138, 0, 230);
+  background-color: rgb(244, 235, 250);
+  border-color: rgb(138, 0, 230);
+  border-radius: 15px;
+  padding: 5px 10px;
+  transition: all 200ms ease-in-out;
+}
+.locButton:hover {
+  background-color: rgb(138, 0, 230);
+  color: rgb(252, 248, 20);
+  border-color: rgb(252, 248, 20);
+}
+.search {
+  border-radius: 15px;
+}
+
+.searchBox {
+  background-color: rgb(244, 235, 250);
+  border-color: rgb(138, 0, 230);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.searchButton {
+  background-color: rgb(244, 235, 250);
+  color: rgb(138, 0, 230);
+  border-color: rgb(138, 0, 230);
+  font-size: 32px;
+  border-radius: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.searchButton:hover {
+  background-color: rgb(138, 0, 230);
+  border-color: rgb(244, 235, 250);
+  color: rgb(244, 235, 250);
+}
+.searchForm {
+  max-width: 50%;
+}
+
+.body {
+  margin-top: 120px;
+}
+
+.dayBox {
+  background-color: rgb(138, 0, 230);
+  border-radius: 30px;
+  color: rgb(244, 235, 250);
+  margin-left: 40px;
+}
+.currentDay {
+  position: relative;
+  left: 70px;
+}
+.currentDayIcon {
+  font-size: 160px;
+  position: relative;
+  text-align: left;
+  margin-left: 25px;
+}
+.cityName {
+  font-size: 45px;
+  font-weight: bold;
+  position: relative;
+  top: -105px;
+  left: 10px;
+}
+
+.dateTime {
+  position: relative;
+  left: -158px;
+  top: -80px;
+  opacity: 90%;
+}
+
+.weather {
+  font-size: 30px;
+  font-weight: lighter;
+  position: relative;
+  left: -260px;
+  top: -48px;
+}
+
+.degree {
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  top: -4px;
+  left: -345px;
+}
+.dayInfo {
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  top: -165px;
+  right: -235px;
+}
+
+.days {
+  font-size: 20px;
+  text-align: center;
+  margin: 15px;
+  position: relative;
+  top: -50px;
+}
+.dayIcon {
+  font-size: 50px;
+}
+
+.popular {
+  color: rgb(138, 0, 230);
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  top: -25px;
+}
+
+.cityRow {
+  background-color: rgb(138, 0, 230);
+  color: rgb(244, 235, 250);
+  font-size: 36px;
+  margin: 5px 5px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border-color: rgb(138, 0, 230);
+  box-shadow: rgb(105, 105, 105) 0px 1px 5px 1px;
+  border: rgb(138, 0, 230) solid 2px;
+  transition: all 200ms ease-in;
+  position: relative;
+  top: 16px;
+  width: 475px;
+}
+
+.cityTemp {
+  padding-right: 25px;
+}
+.cityRow:hover {
+  color: rgb(138, 0, 230);
+  background-color: rgb(244, 235, 250);
+}
+.coder {
+  text-align: center;
+  margin: 15px;
+  font-size: 30px;
+  opacity: 70%;
+  word-spacing: 5px;
+}
+.name {
+  font-family: "Oregano", cursive;
+  color: rgb(138, 0, 230);
+}
+.scale {
+  font-family: "Tektur", cursive;
+  font-weight: 100;
+}
+a {
+  text-decoration-thickness: 2px;
+  color: rgb(244, 235, 250);
+  transition: all 200ms ease-in-out;
+}
+a:hover {
+  color: rgb(252, 248, 20);
+  cursor: pointer;
+}
